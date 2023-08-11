@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+   
+}
+.main{
+    background-color: rgb(247, 215, 87);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 80vmin;
+    width: 80vmin;
+    background-color: #f13535;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.emoji span{
+   font-size: 10rem;
+
+}
+.box p{
+    padding: 0 3vw 2vw 3vw;
+    font-size: 2rem;
+    word-wrap: break-word;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 700;
+}
+.box button{
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.box button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+
+}
